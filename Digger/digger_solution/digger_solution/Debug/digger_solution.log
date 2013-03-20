@@ -1,0 +1,28 @@
+﻿Построение начато 14.12.2012 17:47:50.
+     1>Проект "D:\CPP\Digger\digger_solution\digger_solution\digger_solution.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\digger_solution.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\main.cpp
+         main.cpp
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CPP\Digger\digger_solution\Debug\digger_solution.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\digger_solution.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\CPP\Digger\digger_solution\Debug\digger_solution.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CPP\Digger\digger_solution\Debug\digger_solution.lib" /MACHINE:X86 Debug\menu.res
+         Debug\App.obj
+         Debug\bmp.obj
+         Debug\GfxWin.obj
+         Debug\main.obj
+         Debug\Win.obj
+         LINK : не найден или не выполнена сборка D:\CPP\Digger\digger_solution\Debug\digger_solution.exe при последней инкрементной компоновке; выполняется полная компоновка
+         digger_solution.vcxproj -> D:\CPP\Digger\digger_solution\Debug\digger_solution.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\CPP\Digger\digger_solution\Debug\digger_solution.exe;#1" /manifest Debug\digger_solution.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\digger_solution.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\digger_solution.lastbuildstate".
+     1>Построение проекта "D:\CPP\Digger\digger_solution\digger_solution\digger_solution.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.04

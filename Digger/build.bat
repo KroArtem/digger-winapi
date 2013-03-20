@@ -1,0 +1,1 @@
+gcc -o digger.exe main.cpp App.cpp Win.cpp GfxWin.cpp bmp.cpp -lgdi32 -lstdc++
