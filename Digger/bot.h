@@ -18,9 +18,6 @@ public:
 	{
 	}
 
-	bool moving;
-	bool isLeft, isRight,isUp,isDown;
-
 
 	bool FitsMove(unsigned char *field)							
 	{

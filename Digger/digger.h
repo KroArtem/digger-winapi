@@ -7,19 +7,21 @@ class Digger: public Object //here we suppose digger can have additional functio
 {
 
 public:
-	Direction DiggerDirection;
+	
+    bool moving;
+	bool isLeft, isRight,isUp,isDown;
+    
+    Direction DiggerDirection;
 
 	Digger():Object(-1,-1,NULL, true),moving(false),isLeft(false),isRight(false),isUp(false),isDown(false)
 	{
 	}
 
-	Digger(int x, int y, unsigned char *z, bool isEatable): Object(x,y,z,isEatable)
+	Digger(int x, int y, unsigned char *z, bool isEatable): Object(x,y,z,isEatable),moving(false)
 	{
-	}
+    }
 	
-	float Digger_Speed; //I'll use it later to speed up my digger with bonuses. Or not. Nobody knows.
-	bool moving;
-	bool isLeft, isRight,isUp,isDown;
+	
 
 	void Insert_Digger(int x, int y, unsigned char *field)
 	{

@@ -11,7 +11,7 @@ private:
 	bool moving;
 public:
 	Gold():Object(-1,-1,NULL, true){moving = false;}
-	Gold(int x, int y, unsigned char *z, bool isEatable):Object(x,y,z, isEatable)
+	Gold(int x, int y, unsigned char *z, bool isEatable):Object(x,y,z, isEatable),moving(false)
 	{
 	}
 

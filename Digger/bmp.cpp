@@ -27,7 +27,7 @@ unsigned char *read_bmp(char *fname) {
 		}
 	}
 	fclose(f);
-	//free(data);
+	free(data);
 	return img;
 }
 
